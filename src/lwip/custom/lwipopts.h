@@ -33,6 +33,8 @@
 // enable tun2socks logic
 #define TUN2SOCKS 1
 
+#define LWIP_HAVE_SSIZE_T 1
+
 #define NO_SYS 1
 #define LWIP_TIMERS 1
 
